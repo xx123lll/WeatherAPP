@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 规定移动端的视口 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<title>天气APP</title>
+	<link rel="stylesheet" href="css/index.css">
+	<!-- 引入js文件,使设计稿适配不同型号的手机 -->
+	<script src="js/jquery3.2.1.min.js"></script>
+	<script src="js/rem.js"></script>
+	<!-- <script src="js/demo.js"></script> -->
+	<script src="js/index.js"></script>
+</head>
+<body>
+    <!-- 当前天气情况开始 -->
+	<div class="first">
+		<div class="pos"></div>
+		<div class="air">
+			<h4>空气</h4>
+			<h5></h5>
+		</div>
+		<div class="title1"></div>
+		<div class="title2"></div>
+		<div class="title3">
+			<span class="wind_dir"></span>
+			<span class="wind_level"></span>
+		</div>
+		<div class="title4">你若安好，便是晴天</div>
+	</div>
+	<!-- 当前天情况结束 -->
+
+	<!-- 今天和明天模块开始 -->
+	<div class="second">
+		<div class="today">
+			<div class="top">
+				<div class="todayText">今天</div>
+				<div class="tem">
+					<span class="higher"></span>
+					<span>/</span>
+					<span class="lower"></span>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="con"></div>
+				<div class="conPic"></div>
+			</div>
+		</div>
+		<div class="tomorrow">
+			<div class="top">
+				<div class="tomorrowText">明天</div>
+				<div class="tem">
+					<span class="higher1"></span>
+					<span>/</span>
+					<span class="lower1"></span>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="Con"></div>
+				<div class="ConPic"></div>
+			</div>
+		</div>
+	</div>
+	<!-- 今天和明天模块结束 -->
+
+	<!-- 第24小时天气预报开始 -->
+	<div class="third">
+		<div class="wrap">
+			<!-- <div class="box">
+			</div> -->
+		</div>
+	</div>
+	<!-- 第24小时天气预报结束 -->
+
+	<!-- 未来几天天气预报开始 -->
+	<div class="forth">
+		<div class="wrap1"></div>
+	</div>
+	<!-- 未来几天天气预报结束 -->
+
+	<!-- 温馨提醒开始 -->
+	<div class="fifth">
+		<div class="box">
+			<div class="t1">不带伞</div>
+			<div class="t2">雨伞</div>
+		</div>
+		<div class="box">
+			<div class="t1">冷</div>
+			<div class="t2">穿衣</div>
+		</div>
+		<div class="box">
+			<div class="t1">较弱</div>
+			<div class="t2">防晒</div>
+		</div>
+		<div class="box1">
+			<div class="t1">较易发</div>
+			<div class="t2">感冒</div>
+		</div>
+		<div class="box">
+			<div class="t1">较不宜</div>
+			<div class="t2">运动</div>
+		</div>
+		<div class="box">
+			<div class="t1">较适宜</div>
+			<div class="t2">洗车</div>
+		</div>
+		<div class="box">
+			<div class="t1">不宜</div>
+			<div class="t2">钓鱼</div>
+		</div>
+		<div class="box1">
+			<div class="t1">良好</div>
+			<div class="t2">交通</div>
+		</div>
+	</div>
+	<!-- 温馨提醒结束 -->
+
+	<!-- 数据来源开始 -->
+	<div class="sixth">
+		<h4>数据来源于中国天气网</h4>
+	</div>
+	<!-- 数据来源结束 -->
+
+	<!-- 城市搜索开始 -->
+	<div class="city">
+		<div class="search">
+			<input type="text" class="searchBox" placeholder="请输入要搜索的城市名称">
+			<div class="button">确认</div>
+		</div>
+		<div class="citys city2">
+		    <div class="title">热门城市</div>
+		    <div class="con">
+		    	<div class="box">太原</div>
+				<div class="box">上海</div>
+				<div class="box">北京</div>
+				<div class="box">深圳</div>
+				<div class="box">洛阳</div>
+				<div class="box">九寨沟</div>
+				<div class="box">成都</div>
+				<div class="box">天津</div>
+				<div class="box">南京</div>
+				<div class="box">昆明</div>
+				<div class="box">张家界</div>
+				<div class="box">大理</div>
+		    </div>
+	</div>
+	<!-- 城市搜索结束 -->
+</body>
+</html>
